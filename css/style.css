@@ -1,0 +1,59 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    width: 100%;
+}
+.primary-bg-color{
+    background-color: #e76f51;
+    transition: all .3s;
+}
+.primary-text-color{
+    color: #e76f51;
+}
+.primary-text-color-deep{
+    color: #a03217;
+}
+.btn.primary-bg-color:hover{
+    background-color: #a03217;
+}
+
+.text-underline{
+    height: 1px;
+    width: 50px;
+    background-color: #e76f51;
+    margin: 0 auto;
+    position: relative;
+    bottom: 15px;
+}
+
+/* header */
+.header-bg-color{
+    background-color: #264653;
+}
+
+/* featured bikes */
+.featured-bikes img.grayscale{
+    filter: grayscale(100%);
+}
+
+/* clients review */
+.client{
+    color: #2ba9f0;
+}
+
+/* vehicles */
+.vehicles .card{
+    transition: all .3s;
+}
+.vehicles .card:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+}
+.vehicles .card:hover button{
+    background-color: #a03217;
+}
